@@ -1,0 +1,5 @@
+<button (click)="btnValue = btn1.innerText" #btn1>Botón 1</button>
+<button (click)="btnValue = btn2.innerText" #btn2>Botón 2</button>
+<button (click)="btnValue = btn3.innerText" #btn3>Botón 3</button>
+<p></p>
+<app-hijo [btnPulsado]="btnValue"></app-hijo>
